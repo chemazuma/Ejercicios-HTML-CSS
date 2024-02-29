@@ -1,0 +1,33 @@
+
+body {
+    background-color: rgb(255, 89, 0);
+    }
+
+.barra-carga {
+    margin: 10%;
+    padding: 10px;
+    width: 50%;
+    height: 21px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    overflow: hidden;
+
+    }
+
+.progreso {
+    width: 0;
+    height: 100%;
+    background-color: #cab727;
+    animation: aumentar-ancho 2s ease-in-out infinite alternate;
+    }
+
+@keyframes aumentar-ancho {
+    0% {width: 0;}
+
+    100% {width: 100%;}
+    }
+
+.progress-text {
+     position: absolute;
+     width: 100%;
+    }   

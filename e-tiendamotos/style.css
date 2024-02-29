@@ -1,0 +1,115 @@
+body{
+    background-color: #faf4f4;
+}
+.cz-header{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.cz-header__div{
+    position: absolute;
+        top: 139px;
+        left: 14px;
+        text-align: left;
+}
+
+.cz-header__a{
+    color: #f5002b;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cz-header__a1{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+a{
+    display: flex;
+    text-decoration: none;
+}
+
+.cz-main {
+    width: 100%;
+    display: flex;
+    
+
+}
+
+.cz-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: #faf4f4;
+}
+
+.cz-small-image{
+    width: 300px;
+}
+.cz-gallery__item {
+    width: calc(33% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.cz-gallery__text {
+    text-align: center;
+}
+
+.cz-gallery__title {
+    display: block;
+    margin: 2px 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+.cz-gallery__price {
+    font-weight: bold;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.cz-footer__text{
+    font-size: 25px;
+}
+
+
+
+.cz-footer__text2{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Colocar bien las imagenes cuando pasemos de pc a movil
+
+@media only screen and (max-width: 600px) {
+    .gallery img {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+
+
+
+
+

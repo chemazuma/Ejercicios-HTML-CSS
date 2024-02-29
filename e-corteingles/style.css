@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color:#ebe4e4;
+    flex-direction:column;
+    display: flex;
+    align-items:center; 
+}
+
+img{
+    object-fit: cover;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.b-header{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+}
+
+.b-info__logo{
+   width: 25%;
+}
+
+ .b-info{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .b-info__ul{    
+width: 60%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+ }
+
+.b-info__ul--flex{
+justify-content: space-around;
+list-style: none;
+display: flex;
+}
+
+.b-li__span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.b-navbar{
+width: 100%;
+background-color: white;
+}
+
+.b-navbar__ul{
+    display: flex;
+    justify-content:space-around;
+    padding: 16px;
+    list-style: none;
+    font-weight: bold;
+ }
+
+.b-navbar__menu{
+    background-color: rgb(0, 250, 0)
+    width: 10px;
+    height: 20px;
+ }
+
+ .b-bar__ul:hover{
+    border-bottom: 2px green solid;
+
+ }
+
+.b-navbar__ulsub{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: disc;
+    color: white;
+    font-weight: bold;
+}
+.fa-bars{
+    width: 80px;
+    height:80px;
+}
+
+
+.b-main{
+    width: 100%;
+    height: 500px;
+    
+}
+.b-infomain{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    margin-left: 6%;
+}
+.buttom1{
+    background-color:rgb(122, 184, 79)
+}
+.b-button{
+    padding: 10px;
+background: rgb(121, 184, 79);
+}
+
+
+.b-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; 
+    height: 500px;     
+}
+
+.b-gallery__img{
+    width: 93%;
+    height: 211px;
+}
+
+.b-gallery__item{
+    width: 45%;
+    margin: 19px;
+    height: 402px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.b-gallery__text{
+    text-align:left;
+}
+
+.b-gallery__title{
+    display: block;
+    margin: 2px 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.b-gallery__price{
+    font-weight: bold;
+}
+
+.b-footer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+}
